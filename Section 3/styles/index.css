@@ -1,0 +1,254 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, sans-serif;
+  background-color: #fafaf8;
+}
+
+
+
+/* State practice styles (counter challenge) */
+/* 
+body {
+  background-color: #262626;
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.container > h1 {
+  color: white;
+  margin: 0;
+}
+
+.counter {
+  display: flex;
+  align-self: center;
+  margin-top: 40px;
+  align-items: flex-end;
+}
+
+.counter > button {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  border: none;
+  background-color: #737373;
+  color: #D9D9D9;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+.counter > button:hover {
+    background-color: #404040;
+    color: #D9D9D9;
+}
+
+.count {
+  background-color: white;
+  width: 100px;
+  height: 100px;
+  border-radius:50px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-block: 0 10px;
+  border: none;
+  font-family: Inter, sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.minus {
+  margin-right:-20px;
+  z-index: 1000;
+}
+
+.plus {
+  margin-left: -20px;
+} */
+
+
+
+/* Styles for complex state arrays exercise*/
+
+/* * {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #70B85D;
+    color: white;
+    padding: 20px;
+    font-size: 1.3rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+button {
+    width: 100%;
+    max-width: 300px;
+    background-color: transparent;
+    padding: 1rem;
+    color: white;
+    border: 2px solid white;
+    border-radius: 50px;
+    cursor: pointer;
+    font-family: 'Karla', sans-serif;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background-color: #FFFEF1;
+    color: #2C5E2E;
+}
+
+button:focus {
+    outline: 0;
+}
+
+p {
+    margin-block: 10px;
+    font-size: 2rem;
+} */
+
+
+/* Styles for Complex state Objects exercise (Contact*/
+
+/* * {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0C4A6E;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: white;
+    width: 200px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    height: 350px;
+}
+
+.card .avatar {
+    width: 100%;
+    padding: 10%;
+    padding-bottom: 0;
+}
+
+.card .name {
+    margin-block: 13px;
+    color: #333333;
+}
+
+.card .info {
+    padding: 10px;
+}
+
+.card .favorite {
+    width: 25px;
+    cursor: pointer;
+}
+
+.card .contact {
+    font-size: 0.75rem;
+    color: gray;
+    margin-block: 7px;
+}
+
+.card .favorite-button {
+    border: none;
+    background: transparent;
+}
+
+.card .favorite-button:active {
+    transform: none;
+    box-shadow: none;
+} */
+
+/* 
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: whitesmoke;
+}
+
+header {
+  height: 65px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-inline: 20px;
+  background-color: #dce6fd
+}
+
+header > img, header > p {
+  cursor: pointer;
+}
+
+section {
+  padding: 20px;
+} */
+
+
+
+
+/* Sound pads */
+/* 
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1C1917;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pad-container {
+  display: grid;
+  grid-template-columns: repeat(4, 100px);
+  grid-template-rows: repeat(2, 100px);
+  gap: 10px;
+}
+
+button {
+  height: 100px;
+  width: 100px;
+  border: 3px solid white;
+  border-radius: 5px;
+  cursor: pointer;
+  opacity: 0.1;
+}
+
+button.on {
+  opacity: 1;
+} */
